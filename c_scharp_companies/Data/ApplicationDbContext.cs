@@ -11,5 +11,8 @@ public class ApplicationDbContext : IdentityDbContext
     {
     }
     public DbSet<c_scharp_companies.Models.Joke> Joke { get; set; } = default!;
+    public DbSet<c_scharp_companies.Models.Company> Company { get; set; } = default!;
+    public DbSet<c_scharp_companies.Models.Address> Address { get; set; } = default!;
+    public DbSet<c_scharp_companies.Models.Employee> Employee { get; set; } = default!;
 }
 
